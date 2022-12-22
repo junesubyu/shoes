@@ -1,0 +1,311 @@
+/* width : 1320 */
+/* padding 20px 1280px */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Poppins:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  font-size: 16px;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.center_box {
+  width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li a {
+  margin-right: 30px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.top_menu {
+  display: flex;
+}
+
+.top_menu li:last-child {
+  margin-left: 40px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_box {
+  width: 632px;
+  height: 632px;
+  background-color: #e1e1e1;
+  position: relative;
+}
+
+.left_box .img_01 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.left_box .img_02 {
+  position: absolute;
+  top: 540px;
+  left: 450px;
+  /* transform: translate(50%, 50%); */
+}
+
+.left_box .img_03 {
+  position: absolute;
+  top: 540px;
+  left: 530px;
+}
+
+/* right_box */
+
+.right_box {
+  width: 532px;
+  height: 635px;
+}
+
+.size_name h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.size_name h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.size_name p {
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.size_guide {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.size_guide h3 {
+  font-weight: 600;
+}
+
+.btn {
+  width: 92px;
+  height: 92px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.buttons ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.main_button button {
+  width: 532px;
+  height: 64px;
+  background-color: #111;
+  border-radius: none;
+  cursor: pointer;
+  margin-top: 28px;
+}
+
+.main_button button span {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* second_main */
+
+.second_main {
+  height: 556px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.second_info {
+  margin-top: 190px;
+}
+
+.second_info h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+
+.second_info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.second_main .first_box {
+  width: 414px;
+  height: 556px;
+  background-color: #e1e1e1;
+}
+
+.second_main .second_box {
+  width: 414px;
+  height: 556px;
+  background-color: #e1e1e1;
+}
+
+/* .product_new */
+.product_new {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.product_new h1 {
+  margin-top: 130px;
+  margin-bottom: 26px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.product_new .product_title {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.product_new .product_title li a {
+  display: inline-block;
+}
+.product_new .product_title li a img {
+  width: 305px;
+  height: 305px;
+  background-color: #c4c4c4;
+  margin-bottom: 10px;
+}
+
+.product_new .product_title li:hover {
+  border-bottom: 1px solid #111;
+}
+
+.product_new .product_title li h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_new .product_title li p {
+  font-size: 18px;
+  margin-bottom: 64px;
+}
+
+.solide {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 150px;
+}
+
+/* footer */
+.footer {
+  height: 412px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer_menu {
+  display: flex;
+  padding-top: 106px;
+  position: relative;
+}
+
+.footer_first {
+  display: flex;
+}
+
+.footer_first li {
+  margin-right: 32px;
+  line-height: 30px;
+}
+
+.footer_first > li > a {
+  font-size: 12px;
+  opacity: 25%;
+}
+
+.footer_second li a {
+  font-size: 14px;
+}
+
+.footer_iland {
+  position: absolute;
+  top: 106px;
+  right: 0;
+}
+
+.footer_iland ul {
+  display: flex;
+}
+
+.footer_sns {
+  font-size: 12px;
+  opacity: 25%;
+  line-height: 30px;
+}
+
+.footer_iland ul li {
+  margin-right: 16px;
+}
+
+.copyright {
+  position: relative;
+}
+.copyright p {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  font-size: 10px;
+  opacity: 50%;
+}
