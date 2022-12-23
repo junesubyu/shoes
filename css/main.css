@@ -138,84 +138,117 @@ body {
   font-size: 30px;
   font-weight: 600;
 }
-.product_new .product_title {
+.product_new ul {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
-.product_new .product_title li a {
+
+.product_new ul::after {
+  position: absolute;
+  content: "";
+  width: 1280px;
+  height: 7px;
+  background-color: #c4c4c4;
+  bottom: 0;
+  left: center;
+}
+
+.product_new ul li {
+  position: relative;
+}
+
+.product_new ul li:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #111;
+  z-index: 1;
+}
+
+.product_new ul li a {
   display: inline-block;
 }
-.product_new .product_title li a img {
+.product_new ul li a img {
   width: 305px;
   height: 305px;
   background-color: #c4c4c4;
   margin-bottom: 10px;
 }
 
-.product_new .product_title li h3 {
+.product_new ul li h3 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.product_new .product_title li p {
+.product_new ul li p {
   font-size: 18px;
   margin-bottom: 64px;
 }
 
-.product_new .product_title li:hover {
-  border-bottom: 1px solid #111;
-}
-
-.solide {
-  border-bottom: 1px solid #c4c4c4;
-  margin-bottom: 150px;
-}
-
 /* product_top */
-
-.product_new {
+.product_top {
+  position: relative;
 }
 
 .product_top h1 {
   margin-top: 130px;
   margin-bottom: 26px;
   font-size: 30px;
-  font-weight: 600;
 }
-.product_top .product_title {
+.product_top ul {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-between;
 }
-.product_top .product_title li a {
+
+.product_top ul li {
+  position: relative;
+}
+
+.product_top ul li:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: #111;
+  z-index: 1;
+}
+
+.product_top ul li a {
   display: inline-block;
 }
-.product_top .product_title li a img {
+.product_top ul li a img {
   width: 305px;
   height: 305px;
   background-color: #c4c4c4;
   margin-bottom: 10px;
 }
 
-.product_top .product_title li h3 {
+.product_top ul li h3 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.product_top .product_title li p {
+.product_top ul li p {
   font-size: 18px;
   margin-bottom: 64px;
 }
 
-.product_top .product_title li:hover {
-  border-bottom: 1px solid #111;
-}
-
-.product_top {
-}
-.solide_01 {
-  border-bottom: 1px solid #c4c4c4;
+.product_top ul::after {
+  position: absolute;
+  content: "";
+  width: 1280px;
+  height: 7px;
+  background-color: #c4c4c4;
+  bottom: 0;
+  left: center;
 }
 
 /* info_box */
